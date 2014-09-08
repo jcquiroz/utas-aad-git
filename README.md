@@ -10,7 +10,7 @@ The outcomes (slides, reports, papers, chapters) will be stored here and should 
 - Report 1: Research Plan (RP)
 - Report 2: Slides RP
 
-Check out the current [Module site](http://jcquiroz.github.io/utas-aad-git/) to see how I've changed things.
+Check out the current <a href="http://jcquiroz.github.io/utas-aad-git/" target="_blank">Module site</a> to see how I've changed things.
 
 
 
