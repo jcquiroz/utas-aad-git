@@ -1,0 +1,45 @@
+%!TEX root = ../jcq-text-v1.tex
+\section*{\scshape Chapter 2}
+{\Large \scshape Patagonian toothfish population dynamics in a spatially varying \\ simulation framework: The case of Kerguelen Plateau} % \\[0.1\baselineskip] 
+\label{sec:chapter2}
+
+
+\subsection*{Rationale}
+
+One of the most pressing goals of the working-groups in \ac{ccamlr} is to ensure that population dynamics and assessment methods reflect the spatial distribution, demographic traits and the spatial allocation of fishing effort in \acl{top}. For instance, analyzing data from tagging programs \citet{secaetal2011} pointed out important linkages between \acl{top} populations that inhabit Kerguelen Islands (French EEZ) and HIMI (Australian EEZ), but some operational issues in the samples and extension of tagging data have limited their use \citep{candyCons2008}. Although  the recent increase in collecting high-quality data derived from tagging data have resulted in the development of a overall population model combining jurisdictional data from French and Australian EEZ \citep{Candy2011b}, still remain important gaps about the paths to incorporate migration process derived from these data.
+
+The embedded project as outlined in the previous chapter (see Extension section, page \pageref{subsec:extsupp}) must provide a strong background related to migration patterns, fishery behaviour and optimal management procedures under a spatially-structured framework to \acl{top} population in Kerguelen Plateau. Based on  simulation tools, improvements in stock assessment models and the refining of harvest strategies, the project team should overcome the issues raised in the preceding paragraph.
+
+Using the outcomes from embedded project, this chapter should provides complementary modelling and simulating approaches to improve the theoretical population dynamic of \acl{top} on Kerguelen Plateau. Furthermore, the outcomes of this chapter could be used to contrast the quantitative process carried out by both research lines --- the developed methods framed in the embedded project and the findings from this PhD research.  
+
+
+\subsection*{Methods}
+
+Most of the stock assessment carried out by the working-groups in \ac{ccamlr} have using the Integrated Stock Assessment framework CASAL \citep{candyCons2008,Ziegler2014}. In this PhD research I propose use Automatic Differentiation (AD) Model Builder \citep{Fournier2012} because three main reason:
+
+{\small 
+\begin{itemize}
+        \item Provides a high flexibility programming language to accommodate further coding changes, as well as streamlines the iterative processes such as multiple optimizations and risk evaluation framed under the MSE approaches.
+        \item provides ascii results suitable to be read for most cross-platform application and user interface frameworks like Matlab or R-project.
+        \item Allows the comparison of results from CASAL and AD Model Builder frameworks. 
+\end{itemize}
+}
+
+The designed steps to address this chapter involve: \emph{i}) translate the code model of both HIMI \citep{Ziegler2014} and Kerguelen Islands \citep{Aude2012} areas from CASAL to AD Model Builder, \emph{ii}) merge both ADMB models (\emph{e.i.} HIMI and Kerguelen Islands)  and reproduce the results of \citet{Candy2011b} in Kerguelen Plateau, \emph{ii}) extend the Kerguelen Plateau model to reflect the spatial dynamics of \acl{top} under  a spatial simulation framework coherent with outcomes from the embedded project. 
+
+The results of this chapter must  be discussed in the context of potential bias in key management variables such as spawning biomass levels, vulnerable stock size to fleets, exploitation rate, and relative proportion of population  between areas. 
+
+
+\subsection*{Outcomes intended}
+
+Publishing type: \textit{Peer-reviewed article} \\
+Target journal: \textit{Plos One (California corporation, USA)} \\
+Objectives addressed: \textit{Objective 2, see page~\pageref{subsec:objetives} }\\
+Main milestone: \textit{Manuscript submission by November,  2015}\\
+Store and share code: SharePoint provided by IMAS or AAD. Alternatively, these can be placed in public repositories like GitHub [\url{https://github.com/}].
+
+\subsection*{Threat \& Contingency}
+
+The outcomes of this chapter largely depend on findings from embedded project and therefore unexpected  delays could arise. 
+
+\vspace{11cm}

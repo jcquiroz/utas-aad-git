@@ -1,0 +1,146 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{fancyhdr}
+\usepackage{soul}
+\usepackage{lastpage}
+\usepackage[export]{adjustbox}
+\usepackage{framed}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{tocbibind}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{footnote}
+%\usepackage[thinlines]{easytable}
+
+% Style file to assist in Research Plan
+% First set the required page format...margins, text widths etc.
+% Note 1in=2.54cm and LaTeX has a fixed border of 1in on top and left
+% margins so we need to take this into account when calculating sizes.
+% Set the top margin to be 1inch from the paper edge.
+\setlength{\topmargin}{-1.54cm}
+% Set the header height to be 1cm
+\setlength{\headheight}{0.0cm}
+% Set the header-body separation level
+\setlength{\headsep}{0.0cm}
+% Set the footskip to be 2cms (was 0.1cm)
+\setlength{\footskip}{9.52pt}
+% Set the bottom margin to be 1 inch from the paper edge by
+% way of the \paperheight and \textheight commands
+% First set up a new length called \textheit
+\newlength{\textheit}
+% Set the value of \textheit to the total paper height for
+% the paper size declared in the \documentclass command
+\setlength{\textheit}{\paperheight}
+% Subtract off 1 inch from top and bottom (1+1=2in) of the paper -2
+\addtolength{\textheit}{-2cm}
+% Subtract off the \topmargin height
+%\addtolength{\textheit}{-\topmargin}
+% Subtract off the \headheight height
+\addtolength{\textheit}{-\headheight}
+% Subtract off the \headsep height
+\addtolength{\textheit}{-\headsep}
+% Subtract off the \footskip height
+\addtolength{\textheit}{-\footskip}
+% Finally, set the text height to that calculated above
+\setlength{\textheight}{\textheit}
+% Set the text to flush to the bottom of each page
+\flushbottom
+
+% Set the odd and even left margins to be 3.5cm from paper edge.
+% Note that 3.50cm-2.54cm=0.96cm
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+\setlength{\hoffset}{-0.5in}  %% to set left margin
+
+% Set the right margin to be 1 inch from the paper edge by
+% way of the \paperwidth and \textwidth commands
+% First set up a new length called \textwid
+\newlength{\textwid}
+% Set the value of \textwid to the total paper width for
+% the paper size declared in the \documentclass command
+\setlength{\textwid}{\paperwidth}
+% Subtract off 1 inch from each side of the paper
+\addtolength{\textwid}{-1in}  %% was -2in
+% Subtract off the \oddsidemargin width
+\addtolength{\textwid}{-\oddsidemargin}
+%\addtolength{\textwid}{\leftmargin}
+% Finally, set the text width to that calculated above
+\setlength{\textwidth}{\textwid}
+% Set the paragraph spacing
+\setlength{\parskip}{10pt}
+% Set the paragraph indentation level
+\setlength{\parindent}{0pt}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SOME SETTING
+%----------------------------------------------------------------------------------------
+\titlespacing*{\subsubsection}
+{0cm}{1\baselineskip}{-.5\baselineskip}
+
+\newcommand*{\logoUTAS}{\centering
+						%\includegraphics[scale=0.35]{files/utas_logo_vert_colour.jpg} 
+						\includegraphics[width=0.13\textwidth,natwidth=60,natheight=60]{files/utas_logo_vert_colour.jpg} 
+						}
+
+\pagestyle{fancy}
+\fancyhead[L]{} \fancyhead[C]{} \fancyhead[R]{}
+\fancyfoot[L]{September, 2014} \fancyfoot[C]{} \fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\titRP}{
+\begin{tabular}{l|r}
+    \parbox[t][][t]{2.8cm} {\logoUTAS} &
+    \parbox[b][][s]{14.8cm}
+    {
+	\begin{flushright}
+		{\scshape Graduate Research Office} \\
+		Private Bag 105, Hobart  TAS  7001 \\
+		Tel: 03 6226 8559  Fax: 03 6226 7497 \\
+	\end{flushright}
+	\vspace{0.3cm} 
+	\LARGE \bfseries \centering Research Plan
+	} 
+\end{tabular} \\%[0.01\baselineskip]
+
+The Research Plan provides the blueprint for a candidate's higher degree by research (HDR) \ul{\textbf{and must be completed within the first six months}} (4 months for Masters, equivalent full time) of candidature.  First year candidates are required to prepare with their Supervisory team a Research Plan using this form.  In the case of research in the theatrical, musical or visual arts disciplines, the Research Plan may include visual or aural documentation relating to practice-led research development.  Candidates must discuss this plan with their supervisors and graduate research coordinator.  The Primary Supervisor \textbf{must} approve the Research Plan before forwarding it to the Graduate Research Office.  A copy of the candidate's plan should be retained by the supervisor for the School's records.
+
+\textbf{NOTE:}  If any part of the Research Plan does not comply with disciplinary norms or established guidelines in the enrolling School / Institute / Centre this issue must be discussed with the Graduate Research Co-ordinator or Head of School, prior to submission.
+
+The Research Plan maps the aims, methods, directions and milestones of the degree.   By Confirmation of Candidature, which takes place within the first 11 months of full-time PhD candidature (and 7 months for Masters), the Research Plan will have been fine-tuned and any issues affecting progress discussed and addressed within it.
+
+The Research Plan outlines the rationale, research context and structural outline; it includes the entire timetable and forward plan for a candidate's HDR.  It considers, where appropriate, issues surrounding ethics, budgetary requirements and access to infrastructure.  The Plan is a \ul{guiding document}, and because the research process is, by its nature, dynamic, it should be continually updated.  However, at the end of the first year the Supervisory Team will have settled on a framework that can be modified with new developments and opportunities bearing in mind the overall timeline imposed by maximum candidature.
+
+At the time of the annual review of progress, candidates and supervisors should refer to the Research Plan and indicate how and in what ways it remains valid or must be altered.  
+
+\textbf{\ul{All higher degree by research candidates}} are required to meet with their Primary Supervisor(s) if not all members of their supervisory team as soon as possible and within two weeks of commencement of candidature to discuss their proposed research. The outcome of this meeting should be a draft skeletal outline of the research plan with initial consideration of resources required for the research.
+
+\subsubsection*{SECTION 1 - CANDIDATE'S DETAILS:}
+\begin{center}
+\begin{tabular}{ llll }
+  \hline
+  &&\multicolumn{2}{c}{}\\[-0.35cm]
+  Candidates's name: &  Juan Carlos Quiroz & \multicolumn{2}{c}{ $\;$ ID Number: 190009} \\
+  &&\multicolumn{2}{c}{}\\[-0.35cm]
+  \hline
+  \multicolumn{1}{c}{} & \multicolumn{3}{c}{} \\[-0.35cm]
+  \multicolumn{1}{c}{School/Institute/Centre: } & \multicolumn{3}{c}{Institute for Marine and Antarctic Studies  (IMAS) $\qquad$} \\
+  \multicolumn{1}{c}{} & \multicolumn{3}{c}{}\\[-0.35cm]
+  \hline
+\end{tabular}
+\end{center}
+}
+
