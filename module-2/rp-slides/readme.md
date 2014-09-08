@@ -1,1 +1,1 @@
-See file in [rpubs](http://rpubs.com/jcquiroz/rp)
+See file in [rpubs](http://rpubs.com/jcquiroze/rp)
